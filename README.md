@@ -22,11 +22,6 @@ LA LISTE DES CATEGORIES DANS LE MENU
 	Vous ne devez pas activer ces liens, juste les afficher !!!
 	(Pas de routes pour les catégories)
 
-BONUS: 
-	- afficher le nombre de posts pour chaque catégorie dans la liste des catégories
-	- Pagination 
-	- upload de l'image d'un post
-
 
 ROUTES
 	ROUTE PAR DEFAUT: liste des posts
