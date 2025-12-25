@@ -1,7 +1,5 @@
 # BLOG_PHP_25
 
-ALEX PARKER - CONSIGNES
-
 3 PAGES :
 	1. My Blog (page par défaut) :
 		- Liste des posts du blog triés par date décroissante et limités à 10
@@ -19,50 +17,3 @@ ALEX PARKER - CONSIGNES
 
 LA LISTE DES CATEGORIES DANS LE MENU
 	Ajouter la liste des catégories dans la colonne de gauche (présente sur chaque page)
-	Vous ne devez pas activer ces liens, juste les afficher !!!
-	(Pas de routes pour les catégories)
-
-
-ROUTES
-	ROUTE PAR DEFAUT: liste des posts
-		PATTERN: /
-		CTRL: ???
-		ACTION: ???
-		TITLE: Alex Parker - Blog
-
-	ROUTE DU DETAIL D'UN POST
-			PATTERN: /posts/id/slug-du-post.html
-			URL: ???
-			CTRL: ???
-			ACTION: ???
-			TITLE: Alex Parker - Title du post
-
-	ROUTE D'AJOUT D'UN POST: affichage du formulaire
-			PATTERN: /posts/add/form.html
-			CTRL: ???
-			ACTION: ???
-			TITLE: Alex Parker - Add a post
-
-	ROUTE D'AJOUT D'UN POST: INSERT
-			PATTERN: /posts/add/insert.html
-			CTRL: ???
-			ACTION: ???
-			PAS DE TITLE CAR REDIRECTION VERS LA PAGE D'ACCUEIL
-
-	ROUTE DE MODIFICATION D'UN POST: Affichage du formulaire
-			PATTERN: /posts/id/slug-du-post/edit/form.html
-			CTRL: ???
-			ACTION: ???
-			TITLE: Alex Parker - Edit a post
-
-	ROUTE DE MODIFICATION D'UN POST: UPDATE
-			PATTERN: /posts/id/slug-du-post/edit/update.html
-			CTRL: ???
-			ACTION: ???
-			PAS DE TITLE CAR REDIRECTION VERS LA PAGE DE DETAILS DU POST
-
-	ROUTE DE SUPPRESSION D'UN POST:
-			PATTERN: /posts/id/slug-du-post/delete.html
-			CTRL: ???
-			ACTION: ???
-			PAS DE TITLE CAR REDIRECTION VERS LA PAGE D'ACCUEIL
