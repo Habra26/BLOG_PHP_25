@@ -1,19 +1,33 @@
-# BLOG_PHP_25
+# BLOG PHP – Projet PHP/MySQL
 
-3 PAGES :
-	1. My Blog (page par défaut) :
-		- Liste des posts du blog triés par date décroissante et limités à 10
-		- Texte tronqué à 150 caractères
-		- Date formatée
-		- Lien vers le détails d'un post
-		- Lien vers le formulaire d'ajout d'un post
+Projet de blog réalisé en PHP avec une base de données MySQL, dans le cadre de mon examen de script serveur.
 
-	2. Détails d'un post
-		- title, text, categorie et quote du post
-		- lien pour la modification et la suppression du post
+---
 
-	3. Formulaire d'ajout et de modification d'un post
-		- title, text, image, categorie et quote du post
+## Objectif du projet
 
-LA LISTE DES CATEGORIES DANS LE MENU
-	Ajouter la liste des catégories dans la colonne de gauche (présente sur chaque page)
+- pratiquer la gestion de contenu dynamique en PHP
+- interagir avec une base de données MySQL
+- implémenter les opérations essentielles d’un CRUD
+- structurer un projet back-end en PHP de manière lisible et maintenable
+
+---
+
+## Technologies utilisées
+
+- PHP natif
+- MySQL
+- HTML / CSS (fournis par le professeur)
+- GitKraken & GitHub
+
+---
+
+## Fonctionnalités
+
+Le blog permet :
+
+- création d’articles
+- consultation des articles
+- modification et suppression d’articles
+- interaction avec MySQL via PDO
+- pages dynamiques générées en PHP
